@@ -5,7 +5,7 @@ URL SHORTNER
 Requirements
 ************
 
-Mysql Database and Php (I have used Xampp)
+Mysql Database,Php And Apache (I have used Xampp)
 
 ************
 Installation
