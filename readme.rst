@@ -1,5 +1,41 @@
 ###################
-What is CodeIgniter
+URL SHORTNER
+###################
+************
+Requirements
+************
+
+Mysql Database and Php (I have used Xampp)
+
+************
+Installation
+************
+
+1.) You can Download Directly or from command prompt using following command: 
+
+**git clone https://github.com/bushrashahid/URL-Shortner.git**
+
+2.) Create Database in MysQl and upload sql file.
+
+3.) Configure your database at application/config/database.php
+
+*****
+**Note:**
+*****
+1.) Domain Name or Virtual Host Name (if you are running from local host) Should be Short as much as possible.
+
+2.) Apache rewrite module shoud be enable
+
+
+
+
+
+
+
+
+
+###################
+ CodeIgniter
 ###################
 
 CodeIgniter is an Application Development Framework - a toolkit - for people
