@@ -1,5 +1,5 @@
 ###################
-URL SHORTNER
+URL SHORTENER
 ###################
 ************
 Requirements
