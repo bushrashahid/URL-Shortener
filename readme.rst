@@ -19,6 +19,10 @@ Installation
 
 3.) Configure your database at application/config/database.php
 
+4.) Set Your base url at application/config/config.php
+
+i have set: $config['base_url'] = 'http://go.ly/';
+
 *****
 **Note:**
 *****
