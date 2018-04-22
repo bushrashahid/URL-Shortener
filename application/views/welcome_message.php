@@ -41,7 +41,6 @@
 			<script>
 				$(".url-short").click(function(){
 					var user_url=$(".get-url").val();
-					if(ValidURL(user_url)){
 					var pathname = window.location.pathname;
 						$.ajax({
 						url: pathname+'/welcome/setlink',
@@ -57,11 +56,9 @@
 								$('.short-url').addClass('d-block');
 								$(".get-link").html(result);
 						}});
-					}
+					
 				});
-				function ValidURL(str) {
-				  return true;
-				}
+				
 			
 			</script>
 		</body>
