@@ -35,7 +35,7 @@
 			    <div class="container">
 			    	<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				        <a href="index.html"><h2>URL SHORTNER</h2></a>
+				        <a href="index.html"><h2>URL SHORTENER</h2></a>
 				      </div>
 					  <?php $m=$this->router->fetch_method();?>
 				      <nav id="nav-menu-container">
