@@ -43,7 +43,7 @@ class Welcome extends CI_Controller {
 		$this->load->model('Db_url');
 		$user_url=strtolower($this->input->post('user_url'));
 	    $user_url = rtrim(str_replace('http://', '', $user_url), " /"); 
-		if (parse_url($user_url, FILTER_VALIDATE_URL)) { 
+		if (parse_url($user_url, PHP_URL_HOST)) { 
 			// you're good
 			$url=$this->Db_url->set_url($user_url);
 			if($url){
