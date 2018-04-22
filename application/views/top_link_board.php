@@ -12,7 +12,7 @@
 							<th>SN.</th>
 							<th>USER LINK</th>
 							<th>SHORT LINK</th>
-							<th>COUNT</th>
+							<th>CLICKS</th>
 							
 						</tr>
 					</thead>
