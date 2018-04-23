@@ -8,7 +8,7 @@
   # RewriteBase /mypage/test1/
   # RewriteCond %{HTTPS} on
   
-  RewriteBase /url_change/
+  RewriteBase /
   
   RewriteCond %{REQUEST_URI} ^system.*
   RewriteRule ^(.*)$ index.php?/$1 [L]
