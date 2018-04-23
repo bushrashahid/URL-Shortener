@@ -38,7 +38,7 @@ class Db_url extends CI_Model {
 		if(!empty($res)){
 			return $res[0]->short_url;
 		}else{
-			$short_url=$this->generate_link($user_url);
+			$short_url=$this->generate_link();
 			 $data = array(
 				'user_link' => $user_url,
 				'short_url' =>$short_url
