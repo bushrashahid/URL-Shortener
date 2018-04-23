@@ -57,7 +57,7 @@ class Db_url extends CI_Model {
 		}
 	 }
 	 
-	 private function generate_link($user_url){
+	 private function generate_link(){
 		
 			$chars = "bcdfghjklmnpqrstvwxyz";
 			$chars .= "BCDFGHJKLMNPQRSTVWXYZ";
